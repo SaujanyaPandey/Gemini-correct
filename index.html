@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sugar Rush Bakery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sugar Rush Bakery</h1>
+    <nav>
+      <button>Home</button>
+      <button>Menu</button>
+      <button>Contact</button>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Delicious Treats</h2>
+    <section class="treat">
+      <img src="images/cupcake.jpg" alt="Cupcake">
+      <h3>Vanilla Dream: A Fluffy Vanilla Cake</h3>  <p>A fluffy vanilla cake topped with creamy vanilla frosting and sprinkles. Perfect for a sweet treat!</p>
+      <ul>
+        <li>Ingredients: Flour, Eggs, Butter, Sugar, Milk, Vanilla Extract, Baking Powder, Sprinkles</li>
+      </ul>
+      <span>$2.50</span>
+    </section>
+
+    <section class="treat">
+      <img src="images/cookie.jpg" alt="Cookie">
+      <h3>Chocolate Chip Cookie</h3>
+      <p>A classic chewy chocolate chip cookie made with rich dark chocolate chips.</p>
+      <ul>
+        <li>Ingredients: Flour, Butter, Brown Sugar, Eggs, Vanilla Extract, Salt, Baking Soda, Chocolate Chips</li>
+      </ul>
+      <span>$1.75</span>
+    </section>
+
+    <section class="treat">
+      <img src="images/pie.jpg" alt="Pie">
+      <h3>Blueberry Pie</h3>
+      <p>Freshly baked pie filled with sweet blueberries and topped with a flaky crust.</p>
+      <ul>
+        <li>Ingredients: Pie Crust (Flour, Butter, Salt, Water), Blueberries, Sugar, Lemon Juice, Cornstarch, Cinnamon</li>
+      </ul>
+      <span>$18.00</span>
+    </section>
+  </main>
+
+  <section class="feedback">
+    <h2>Let Us Know What You Think!</h2>
+    <form id="feedbackForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="message">Your Feedback:</label>
+      <textarea id="message" name="message" required></textarea>
+      <br>
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Sugar Rush Bakery. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
